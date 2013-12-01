@@ -1,0 +1,42 @@
+/*--Set Logo Image position and locate logo image file--*/ 
+h1.logo a {left:0px}
+h1.logo a {top:0px}
+
+
+/*--End Set Logo Image position and locate logo image file--*/ 
+
+/*--Body font size--*/
+body{font-size: 12px}
+
+/*--Text Colors for Module Heads and Article titles--*/ 
+h2, h2 a:link, h2 a:visited, .content_header, .articleHead {color: #A5B7C7 }
+.module h3, .module_menu h3, h3 {color: #A5B7C7 }
+a, .module ul.tweets a {color: #A5B7C7 }
+
+/*--Text Colors for Logo and Slogan--*/ 
+h1.logo-text a {
+    color: #EDEDED;
+}
+p.site-slogan {color: #899AA9 }
+
+/*--Hornav Ul text color and dropdown background color--*/
+#hornav ul li a, #subMenusContainer a:hover, #subMenusContainer a:focus, #subMenusContainer a.subMenuParentBtnFocused {color: #D4EAFF }
+#subMenusContainer ul, #subMenusContainer ol{background-color: #0D1721 }
+
+/*--Start Style Side Column and Content Layout Divs--*/
+/*--Get Side Column widths from Parameters--*/
+#sidecol_a {width: 240px }
+#sidecol_b {width: 240px }
+
+/*--Check and see what modules are toggled on/off then take away columns width, margin and border values from overall width*/
+#content_remainder {width:650px }
+
+
+/*Style Side Column A, Side Column B and Content Divs layout*/
+
+#sidecol_a {float:left;}
+#sidecol_b {float:right;}
+#content_remainder {float:left;}
+/*--End Style Side Column and Content Layout Divs--*/
+
+/*--Load Custom Css Styling--*/
